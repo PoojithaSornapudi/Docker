@@ -1,0 +1,12 @@
+
+   39  docker build -t my_jm_docimage .
+   40  vi Dockerfile
+   41  java -version
+   42  docker images
+   43  docker push --help
+   44  docker push poojithas/my_jm_docimage
+   45  docker tag my_jm_docimage poojithas/my_java_maven_image:v1.0
+   46  docker images
+   47  docker push poojithas/my_java_maven_image
+   48  docker login
+   49  docker push poojithas/my_java_maven_image
